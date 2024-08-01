@@ -1,0 +1,36 @@
+{
+  "name": "yaruo-ascii",
+  "version": "1.0.0",
+  "description": "A simple tool to create ASCII art of 'Yaruo' with custom messages",
+  "main": "dist/index.js",
+  "bin": {
+    "yaruo-ascii": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc && node add-shebang.js",
+    "start": "npx ts-node src/index.ts"
+  },
+  "keywords": [
+    "yaruo",
+    "ascii-art",
+    "AA",
+    "日本語",
+    "CLI",
+    "やる夫"
+  ],
+  "author": "arucraft2022",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arucraft2022/yaruo-ascii.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arucraft2022/yaruo-ascii/issues"
+  },
+  "homepage": "https://github.com/arucraft2022/yaruo-ascii#readme",
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "ts-node": "^9.0.0",
+    "@types/node": "^14.0.0"
+  }
+}
